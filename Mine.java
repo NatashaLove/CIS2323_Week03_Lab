@@ -1,4 +1,4 @@
-//import mystuff.Yours;
+import mystuff.*;
 
 public class Mine {
 	
