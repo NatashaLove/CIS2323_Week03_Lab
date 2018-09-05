@@ -6,6 +6,7 @@ public class Mine {
 		
 	System.out.println("This is Mine!");
 	Yours.print();
+	Others.print();
 	}
 		
 }
