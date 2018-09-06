@@ -8,6 +8,14 @@ public class Mine {
 	Lamp myLamp = new Lamp();	
 	System.out.println("This is My lamp!");
 	
+	myLamp.setColor("white");
+	myLamp.setWatts(45);
+	myLamp.turnOn();
+	
+	System.out.println("Lamp is "+myLamp.isOn()+
+	" and is color " + myLamp.getColor() +
+	" and is wattage " + myLamp.getWatts());
+	
 	Lamp yourLamp = new Lamp();	
 	Yours.print();
 	

@@ -1,11 +1,19 @@
 package lab2;
 public class Lamp {
 	// obj attributes
-	boolean isOn=false;
+	public boolean isOn=false;
 	String color;
 	int watts;
 	
 	//obj methods
+	public String isOn() {
+		if (isOn) {
+			return "ON";
+		}else {
+			return "OFF";
+		}
+	}
+	
 	public void turnOn() {
 		isOn=true;
 	}
