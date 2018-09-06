@@ -6,6 +6,12 @@ public class Lamp {
 	int watts;
 	
 	//obj methods
+	public String showStatus() {
+		return "Light is " +isOn() + "\n"+
+		" is color "+ color + "\n"+
+		" and is " + watts + " watts";
+	}
+	
 	public String isOn() {
 		if (isOn) {
 			return "ON";

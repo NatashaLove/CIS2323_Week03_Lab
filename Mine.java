@@ -11,6 +11,8 @@ public class Mine {
 	myLamp.setColor("white");
 	myLamp.setWatts(45);
 	myLamp.turnOn();
+	String status = myLamp.showStatus();
+	System.out.println(status);
 	
 	System.out.println("Lamp is "+myLamp.isOn()+
 	" and is color " + myLamp.getColor() +
