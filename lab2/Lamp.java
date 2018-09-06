@@ -18,10 +18,10 @@ public class Lamp {
 	public String getColor() {
 	return color;
 	}
-	public void setWatts(String w) {
+	public void setWatts(int w) {
 		watts=w;
 	}
-	public String getWatts() {
+	public int getWatts() {
 	return watts;
 	}
 }
